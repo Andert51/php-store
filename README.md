@@ -16,7 +16,8 @@ Programacion : PHP, HTML, CSS, JavaScript, MySQL
 * Middleware sirve  para la seguridad de la aplicacion, como autenticacion y autorizacion, en general son intermediarios entre la peticion del frontend y la respuesta del backend.
 * Models sirve para  la comunicacion con la base de datos, donde se definen las estructuras de los datos y  las operaciones que se pueden realizar sobre ellos, es la similitud con la base de datos y el codigo.
 * interfaces sirve para  definir la forma en que se deben comportar los objetos de la aplicacion, es decir, la forma en que deben interactuar entre si, es la definicion de todas las  operaciones que se pueden realizar sobre un objeto, funciones,  metodos, etc.
-* Repositories sirve  para  la comunicacion con la base de datos, donde se definen las operaciones que se usaran.
+* Repositories sirve  para  la comunicacion con la base de datos, donde se definen las operaciones que se usaran, se ejecutan aqui las operaciones de sql , es la capa de datos.
+
 * Routes sirve  para  definir las rutas de la aplicacion, es decir, las peticiones que  se pueden realizar a la aplicacion.
 * Services sirve para la logica de negocio, donde se manejan las operaciones de negocio de la aplicacion.
 
