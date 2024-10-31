@@ -7,6 +7,9 @@
         public function __construct() {
             $database = new Database();
             $this->conn = $database->getConnection();
+            if ($this->conn === null) {
+            throw new Exception("Failed to connect to the database.");
+        }
         }
 
         public function createProduct($product){
