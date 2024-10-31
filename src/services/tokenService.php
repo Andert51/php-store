@@ -8,7 +8,7 @@
                 'data' => $data,
                 'exp' => time() + $this->expirationTime
             ];
-            return JWT::encodde($payload, $this->secretKey);
+            return JWT::encode($payload, $this->secretKey);
         }
 
         public function verifyToken($token){

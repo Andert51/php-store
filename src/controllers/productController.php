@@ -1,5 +1,6 @@
 <?php
     require_once '../repositories/productRepo.php';
+    require_once '../models/productModel.php';
 
     class productController {
         private $productRepository;
